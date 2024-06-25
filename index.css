@@ -1,0 +1,85 @@
+* {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    color: #04C9F4;
+    height: 5vh;
+}
+
+body {
+    background-color: #E7E7E7;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+#sectionLogin {
+    background-color: #D9D9D9;
+    width: 394px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#imglogo {
+    background-color: #FFFFFF;
+    height: 115px;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#btLogin {
+    background-color: #04C9F4;
+    border: 0px;
+    width: 160px;
+    height: 44px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#btLogin:hover {
+    background-color: #03a9d6;
+}
+
+input {
+    height: 46px;
+    width: 330px;
+    border: none;
+    outline: none;
+    font-size: large;
+    padding: 0 20px;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: #D9D9D9;
+}
+
+.erro {
+    color: red;
+    font-size: 0.9em;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}

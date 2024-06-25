@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contato</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header class="header">
+        Cadastro de Contato
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <form class="form">
+                <div class="estado-codigo-container">
+                    <div class="input-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="input-nome">
+                    </div>
+                    <div class="input-group">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" class="input-sobrenome">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" class="input-endereco">
+                </div>
+                <div class="input-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" class="input-telefone">
+                </div>
+            </form>
+            <div class="buttons">
+                <button class="button incluir">INCLUIR</button>
+                <button class="button editar">EDITAR</button>
+                <button class="button salvar">SALVAR</button>
+                <button class="button cancelar">CANCELAR</button>
+                <button class="button excluir">EXCLUIR</button>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-button">|&lt;</button>
+            <button class="nav-button">&lt;</button>
+            <button class="nav-button">&gt;</button>
+            <button class="nav-button">&gt;|</button>
+        </div>
+    </div>
+    <footer class="footer">
+        AGENDA DE CONTATOS
+    </footer>
+    <script src="cadastro.js"></script>
+</body>
+</html>

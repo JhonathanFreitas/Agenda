@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #FEFBFB;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 650px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.header {
+    background-color: #00bfff;
+    color: white;
+    text-align: start;
+    padding: 15px;
+    padding-left: 35px;
+    font-size: 16px;
+}
+
+.form-container {
+    display: flex;
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.form {
+    background: #D9D9D9;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label{
+    color: white;
+}
+
+.estado-codigo-container{
+    display: flex;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-nome{
+    width: 211px;
+    height: 42px;
+    top: 89px;
+    left: 17px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+
+.input-sobrenome{
+    width: 211px;
+    height: 42px;
+    top: 89px;
+    left: 17px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    width: 120%;
+}
+
+.input-telefone{
+    width: 211px;
+    height: 42px;
+    top: 89px;
+    left: 17px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    width: 50%;
+}
+
+.input-endereco {
+    width: 211px;
+    height: 42px;
+    top: 89px;
+    left: 17px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    
+}
+
+.button {
+    width: 135px;
+    height: 45px;
+    top: 79px;
+    left: 471px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.incluir {
+    background-color: #068622;
+    color: white;
+}
+
+.editar {
+    background-color: #FD9800;
+    color: white;
+}
+
+.salvar {
+    background-color: #04C9F4;
+    color: white;
+}
+
+.cancelar {
+    background-color: white;
+    color: #04C9F4;
+}
+
+.excluir {
+    background-color: #F40404;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.nav-button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 84px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.nav-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    color: #00bfff;
+    font-size: 16px;
+    margin-top: 447px;
+}
